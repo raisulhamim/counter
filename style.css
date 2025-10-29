@@ -1,0 +1,53 @@
+body {
+  background: #d2c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.counter {
+  text-align: center;
+  background: #eceaea;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.time div {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.time h2{
+  display: block;
+  font-size: 2.5em;
+  color: red;
+  font-weight: bold;
+}
+.time span{
+  display: block;
+  font-size: 2.5em;
+  color: red;
+  font-weight: bold;
+}
+
+.time p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
